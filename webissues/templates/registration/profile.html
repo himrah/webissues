@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% load bootstrap3 %}
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+
+    <link rel="stylesheet" href='/track/static/style/bootstrap.min.css'>
+
+    <div class="container">
+
+        <div class="col-md-4">
+            <div>
+            <h3>Welcome {{  user.first_name }} to you profile</h3>
+            </div>
+            <div class="row1">
+            <div>
+                Username : {{ user.username }}
+            </div>
+            <div>
+                Email : {{ email }}
+            </div>
+            <div>
+                Joining Date : {{ join }}
+            </div>
+            <div>
+                Group : {{ group.name }}
+            </div>
+            <div>
+                {{ blog }}
+            </div>
+            <div>
+                <a href="/accounts/logout">Logout</a>
+            </div>
+                </div>
+        </div>
+    </div>
+
+{% endblock %}

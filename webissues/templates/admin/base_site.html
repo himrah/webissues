@@ -1,0 +1,32 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Webissues Admin{% endblock %}
+
+{% block extrastyle %}
+<style>
+#header{
+    background-color:#2d6ca2;
+    color:white;
+}
+
+#branding h1 a:link, #branding h1 a:visited{
+    color: white;
+}
+.module h2,.module caption,.inline-group h2 {
+
+    background: #3abab8 !important;
+}
+
+
+
+
+</style>
+
+{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">webissues administration</a></h1>
+
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

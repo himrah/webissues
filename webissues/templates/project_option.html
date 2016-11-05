@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+{% block content %}
+
+    {% if only %}
+
+        <div class="col-md-8">
+    <table class="table" align="center">
+    <tr align="center">
+        <td><b>Projects</b></td>
+        <td><b>Number of Issue</b></td>
+    </tr>
+     {% for i in project %}
+    <tr align="center">
+       <td><a href="/project/{{ i.id }}">{{ i.name }}</a></td>
+        <td> {{ i.issue_set.count }}</td>
+    </tr>
+    {% endfor %}
+    <tr align="center">
+        <td>Tatal Projects : {{ project.count }}</td>
+        <td>Total Issue : {{ issue.count }}</td>
+    </tr>
+    </table>
+        </div>
+    {% else %}
+
+<h3>Please Select a Project in which you want create issue</h3>
+{% for i in project %}
+    <h4><a href="/create/{{ i.id }}">{{ i.name }}</a></h4>
+{% endfor %}
+    {% endif %}
+{% endblock %}

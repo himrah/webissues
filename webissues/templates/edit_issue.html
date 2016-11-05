@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load bootstrap3  %}
+{% block title %}
+{% if create %}
+    Create Issue
+{% elif project %}
+    Create Project
+    {% elif updateproject %}
+    Update Project
+    {% else %}
+    Update Issue
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {% if cannot %}
+    <h3>You don't have permission to this</h3>
+    {% else %}
+
+{% if form.error %}
+    <p>invalid details</p>
+    {% endif %}
+{% if error %}
+<h2>invalid details</h2>
+{% endif %}
+<div class="col-sm-5">
+
+{% if create %}
+    <h2>Create New Issue</h2>
+    <form action="/create/{{ proj }}" method="POST">
+{% elif project %}
+    <h2>Create New Project</h2>
+    <form action="/create/project" method="POST">
+{% elif updateproject %}
+    <h2>Update Project</h2>
+    <form action="/updateproject/{{ temp.id }}" method="POST">
+{% else %}
+    <h2>Update Issue</h2>
+<form action="/issues/{{ task.id }}" method="POST">
+
+
+{% endif %}
+
+    {% csrf_token %}
+{% bootstrap_form form layout='' %}
+    {% if updateproject  %}
+        <div>
+    <div class="col-md-6"><input class="btn btn-primary btn-block" type="submit" value="update"></div>
+    <div class="col-md-6"><input class="btn-danger btn btn-block" type="submit" value="delete"></div>
+
+        <!--<input type="submit" value="submit" class="btn btn-primary btn-block">-->
+        </div>
+        <div>
+        &nbsp;
+        </div>
+    {% else %}
+    <input type="submit" value="submit" class="btn btn-primary btn-block">
+    {% endif %}
+<br>
+</form>
+</div>
+{% endif %}
+{% endblock %}
