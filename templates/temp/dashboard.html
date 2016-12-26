@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+{% block title %}Dashboard{% endblock %}
+
+{% block sidecontent %}
+<div class="container" style="">
+<div style="#777777;">
+<div><h2>Projects</h2></div>
+<div style="height: 20px;margin-top: 10px;"><h4><a href="/">All Projects</a> </h4></div>
+{% for i in project %}
+<div><h5><a href="/project/{{ i.id }}">{{ i }}</a></h5></div>
+{% endfor %}
+</div>
+</div>
+{% endblock %}
+
+
+
+{% block content %}
+    <div style="background-color: transparent">
+<div style="font-size: 2em;height: 120px;padding-top: 10px;">
+        <table width="80%">
+            <tr>
+                {% if project_name %}
+                <td colspan="2" align="center"><h2>{{ project_name.name }}</h2></td>
+                {% else %}
+                <td colspan="2" align="center"><h2>All Project</h2></td>
+                {% endif %}
+            </tr>
+
+            <tr style="font-size: 20px;">
+                <td style="float: left;padding-left: 50px;"><a href="/create/{{ project_name.id }}">Add issue</a> </td>
+                <td style="float: right"><a href="/export/">Export to CSV</a></td>
+                <!--<td style="padding-left: 7cm">Export to CSV</td>-->
+
+            </tr>
+        </table>
+
+    </div>
+    <div >
+
+    <div>
+    <table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Comment</th>
+        <th>Created Date</th>
+        <th>Created_By</th>
+        <th>Status</th>
+        <th>Tat</th>
+        <th>Assigned to</th>
+        <th>Modify by</th>
+        <th>Action</th>
+    </tr>
+    {% for i in query %}
+    <tr>
+        <td>{{ i.id }}</td>
+        <td><a href="/issues/{{ i.id }}">{{ i.name }}</a></td>
+        <td>{{ i.comment }}</td>
+        <td>{{ i.created_date }}</td>
+        <td>{{ i.created_by }}</td>
+        <td>{{ i.status }}</td>
+        <td>{{ i.tat }}</td>
+        <td>{{ i.assign.get_full_name }}</td>
+        <td>{{ i.modify_by }}</td>
+        <td><a href="/delete/{{ i.id }}"><input type="button" class="btn btn-primary" value="Delete"></a></td>
+        </tr>
+    {% endfor %}
+
+   </table>
+    </div>
+</div>
+    </div>
+
+
+
+{% endblock %}

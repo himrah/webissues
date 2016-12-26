@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Delete {{ query.name }} {% endblock %}
+{% block content %}
+<h2>Are you sure?</h2>
+<p>Are you what to delete the issue {{ query.name }}?</p>
+    <table>
+    <tr>
+        <td><a href="/delete/{{ query.id }}"><input type="button" name="delete" value="Yes, I'm sure"></a></td>
+        <td><a href="/issues/{{ query.id }}"><input type="button" name="back" value="No, take me back"></td>
+    </tr>
+    </table>
+{% endblock %}

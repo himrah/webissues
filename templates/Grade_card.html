@@ -1,0 +1,27 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<h2>IGNOU Grade Card</h2>
+    <br>
+    {% csrf_token %}
+
+    <form name="f1" method="get" action="/result/">
+    <div class="col-sm-3">
+    
+        <select name="Program" class="form-control">
+            <option value="">Select Program</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+        </select>
+    </div>
+    
+        <div class="col-sm-3">
+        <input type="text" class="form-control" name="enrol" placeholder="Enrolment No">
+    </div>
+           <div class="col-sm-3">
+
+               <input type="submit" class="btn btn-primary" name="btn" value="submit">
+               <input value="ok" name="hidden_submit" type="hidden">
+    </div>
+    </form>
+{% endblock %}

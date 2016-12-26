@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ issue.name }}{% endblock %}
+{% block content %}
+
+
+        <table class="table">
+        <tr>
+            <td colspan="2" align="center"><h2>{{ issue.name }}</h2></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>{{ issue.name }}</td>
+        </tr>
+        <tr>
+            <td>Created Date</td>
+            <td>{{ issue.created_date }}</td>
+        </tr>
+        <tr>
+            <td>Created By</td>
+            <td>{{ issue.created_by }}</td>
+        </tr>
+        <tr>
+            <td>Modify By</td>
+            <td>{{ issue.modify_by }}</td>
+        </tr>
+        <tr>
+            <td>Issues Description</td>
+            <td>{{ issue.issue_description }}</td>
+        </tr>
+        <tr>
+            <td>Comments</td>
+            <td>{{ issue.comments }}</td>
+        </tr>
+        <tr>
+            <td>Priority</td>
+            <td>{{ issue.priority }}</td>
+        </tr>
+        <tr>
+            <td>TAT</td>
+            <td>{{ issue.tat }}</td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>{{ issue.status }}</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                {% if user.groups.get.name == 'Associate' %}
+                <a href="{{ issue.id }}/edit">
+                <button class="btn btn-primary">Edit</button></a>
+                {% else %}
+                <a href="{{ issue.id }}/edit">
+                <button class="btn btn-primary">Edit</button></a>
+                <a href="/issues/{{ issue.id }}/delete">
+                <button class="btn btn-danger"">Delete</button></a>
+                {% endif %}
+            </td>
+        </tr>
+        </table>
+{% endblock %}
