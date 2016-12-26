@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %} Result for {{ keyword }} {% endblock %}
+
+{% block content %}
+    {% if issues %}
+        <div style="background-color: transparent">
+        <div style="font-size: 2em;height: 120px;padding-top: 10px;">
+        <table width="80%">
+        <tr>
+            <td>
+            <h2>You are search for <b>{{ keyword }}</b></h2>
+        </td>
+        </tr>
+        </table>
+
+    </div>
+    <div >
+
+    <div>
+    <table class="table">
+    <tr style="background-color: dimgrey;color: white">
+        <th>ID</th>
+        <th>Name</th>
+        <!--<th>Comment</th>-->
+        <th>Created Date</th>
+        <th>Created_By</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Assigned to</th>
+        <th>Modify by</th>
+    </tr>
+    {% for i in issues %}
+    <tr>
+        <td>{{ i.id }}</td>
+        <td><a href="/issues/{{ i.id }}">{{ i.name }}</a></td>
+
+        <td>{{ i.created_date }}</td>
+        <td>{{ i.created_by }}</td>
+        <td>{{ i.status }}</td>
+        <td>{{ i.priority }}</td>
+        <td>{{ i.assign.get_full_name }}</td>
+        <td>{{ i.modify_by }}</td>
+    </tr>
+    {% endfor %}
+
+   </table>
+    </div>
+</div>
+    </div>
+{% else %}
+
+    <h1>Not Found</h1>
+{% endif %}
+
+{% endblock %}

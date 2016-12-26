@@ -1,0 +1,40 @@
+{% load staticfiles %}
+<html lang="en">
+<head id="header">
+    <meta charset="UTF-8">
+</head>
+    <title>{% block title %} {% endblock %}</title>
+    <!--<link rel="stylesheet" type="text/css" href="/static/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">inc
+    <script src="js/bootstrap.min.js"></script>-->
+{% include "js.html" %}
+{% include 'css.html' %}
+
+<body style="font-size: 14px">
+
+{% include 'new_nav.html' %}
+<div class="container">
+<div class="body content">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="sidecontent">
+                {% block sidecontent %}
+                {% endblock %}
+            </div>
+        </div>
+        <div class="col-md-10">
+
+            <div>
+                {% block content %}
+                {% endblock %}
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<footer id="footer">
+    <p>Hi this is designed by me</p>
+</footer>
+</html>

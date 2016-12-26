@@ -1,0 +1,28 @@
+{% include 'js.html' %}
+<html>
+<head></head>
+<body ng-app="myapp">
+
+<div ng-controller="HelloController as ct" >
+    <h2>Welcome {{helloTo.title}} to the my world</h2>
+    <h3>{{helloTo.body}}</h3>
+    <button ng-click=ct.cl() class="btn btn-danger" >Click me</button>
+    <!--<img src="header.jpg" height="240" ng-click="ct.cl()">-->
+<p>Total time button clicked {{ct.counter}}</p>
+    </div>
+</body>
+</html>
+
+<!--
+<script>
+angular.module("myapp", [])
+.controller("HelloController", function($scope) {
+$scope.helloTo = {};
+$scope.helloTo.title = "AngularJS";
+$scope.helloTo.body="This is body of anglar";
+this.counter=0;
+this.cl=function(){
+this.counter++;
+}
+});
+</script>-->
