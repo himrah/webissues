@@ -2,108 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b0edc8e-4779-4da0-8b5b-7237aab7bafd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.fuse_hidden0000024400000002" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/add_issue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/admin_dashboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/admin_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/associate_erp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/associate_permission.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/create_project.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db2.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/delete_manager.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/edit_issues.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/erp_project.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/full_description.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/full_json.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/logo/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/issue_json.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/login_screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/manager_dashboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/manager_permission.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/manager_profile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/maxresdefault.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/logo/maxresdefault.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/project_list_api.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/user_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/logo/webissues-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/migrations/0002_remove_issue_comments.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/migrations/0003_issue_comments.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/migrations/0004_auto_20161111_0255.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/migrations/0005_auto_20161111_0259.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Grade_card.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webissues/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/js/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/js/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/js/app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/rest_framework/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/temp/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/base_site.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/style/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/style/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/style/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/style/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/style/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/style/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/style/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/style/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/css.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/temp/dashboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/delete_confirmation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/edit_issue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/form.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/full.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/issue_detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/issue_details.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/temp/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/logins.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/logout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/new_nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/orig.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/project_option.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/search_query.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/serlierlizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webissues/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/static/style/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/url.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webissues/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/validation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/track/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webissues.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webissues/wsgi.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webissues.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -181,14 +81,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="s.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Sunil/s.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6737968">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
                 <element signature="e#52#77#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -228,7 +138,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../d" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -356,6 +266,256 @@
       <recent name="D:\project\webissues\track\static" />
       <recent name="D:\project\webissues\templates" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.fuse_hidden0000024400000002</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/.name</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/deployment.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/modules.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/vcs.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/webissues.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/__pycache__/manage.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/__pycache__/manage.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/db2.sqlite3</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/manage.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/result.csv</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/add_issue.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/admin_dashboard.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/admin_login.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/associate_erp.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/associate_permission.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/create_project.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/delete_manager.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/edit_issues.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/erp_project.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/full_description.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/full_json.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/group.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/issue_json.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/login_screen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/manager_dashboard.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/manager_permission.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/manager_profile.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/project_list_api.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/user_list.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/Grade_card.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/admin/base_site.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/base.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/css.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/dashboard.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/delete_confirmation.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/edit_issue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/footer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/issue_detail.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/issue_details.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/js.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/nav.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/new_nav.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/orig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/project_option.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/base.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/login.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/logins.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/logout.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/maxresdefault.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/profile.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/rest_framework/base.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/result.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/search.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/search_query.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/temp/base.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/temp/dashboard.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/temp/login.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/test.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/validation.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/__init__.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/__init__.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/admin.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/admin.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/form.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/form.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/full.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/full.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/models.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/models.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/serlierlizer.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/serlierlizer.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/url.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/views.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/views.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/admin.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/form.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/full.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0001_initial.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0002_remove_issue_comments.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0003_issue_comments.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0004_auto_20161111_0255.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0005_auto_20161111_0259.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0001_initial.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0001_initial.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0002_remove_issue_comments.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0002_remove_issue_comments.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0003_issue_comments.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0003_issue_comments.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0004_auto_20161111_0255.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0004_auto_20161111_0255.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0005_auto_20161111_0259.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0005_auto_20161111_0259.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/__init__.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/__init__.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/serlierlizer.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/fonts/glyphicons-halflings-regular.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/fonts/glyphicons-halflings-regular.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/fonts/glyphicons-halflings-regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/fonts/glyphicons-halflings-regular.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/angular.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/angular.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/app/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/logo/grid.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/logo/maxresdefault.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/logo/webissues-logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap-theme.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap-theme.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap-theme.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap-theme.min.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap.min.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/tests.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/url.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/views.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/__init__.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/__init__.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/settings.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/settings.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/urls.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/urls.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/wsgi.cpython-33.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/wsgi.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/settings.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/wsgi.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Django server.webissues">
     <configuration default="false" name="Test: db" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
@@ -671,7 +831,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25496688" sideWeight="0.7140762" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5058651" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294702" sideWeight="0.4941349" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294702" sideWeight="0.4941349" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -699,16 +859,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/track/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/track/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -997,7 +1147,7 @@
         <state vertical-scroll-proportion="-6.6666665">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
-            <element signature="e#204#242#0#HTML" expanded="true" />
+            <element signature="e#204#242#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1103,11 +1253,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Sunil/s.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6737968">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
             <element signature="e#52#77#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
