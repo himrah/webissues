@@ -15,9 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from track.views import *
-#from django.contrib.auth import views
 from track import views
-from django.contrib.auth.views import login, logout
 from django.contrib.auth.views import logout,login
 from track.form import *
 from rest_framework import routers
@@ -58,5 +56,4 @@ urlpatterns = [
     url(r'^grade',grade,name='gradecard'),
     url(r'result',result,name='result'),
     url(r'^api/',include('rest_framework.urls',namespace='rest_framework'))
-
 ]

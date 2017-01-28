@@ -65,8 +65,6 @@ def index(request):
     return render_to_response(template_name,args)
 
 
-
-
 #@login_required(login_url='/accounts/login')
 def login(request):
     if request.user.is_authenticated():
@@ -197,7 +195,7 @@ def new(request):
         return render(request,'edit_issue.html',{'form':form,'project':pr})
 
 
-#@login_required(login_url='/accounts/login')
+
 def auth_view(request):
     username=request.POST.get('username','')
     password=request.POST.get('password','')

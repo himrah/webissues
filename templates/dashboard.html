@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+
 {% load bootstrap3 %}
 {% block title %}Dashboard{% endblock %}
 
@@ -22,8 +23,6 @@
 </div>
 {% endblock %}
 
-
-
 {% block content %}
     <div style="background-color: transparent">
 <div style="font-size: 2em;height: 120px;padding-top: 10px;">
@@ -43,12 +42,8 @@
                 <td style="float: left;padding-left: 50px;"><a href="/create/{{ project_name.id }}">Add issue</a> </td>
                 <td style="float: right"><a href="/export/">Export to CSV</a></td>
                 {% endif %}
-
-                <!--<td style="padding-left: 7cm">Export to CSV</td>-->
-
             </tr>
         </table>
-
     </div>
     <div >
 
@@ -87,7 +82,5 @@
     </div>
 </div>
     </div>
-
-
 
 {% endblock %}

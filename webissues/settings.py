@@ -42,13 +42,11 @@ INSTALLED_APPS = (
     'track',
     'rest_framework',
     'bootstrap3',
-
 )
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 MIDDLEWARE_CLASSES = (
-
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',

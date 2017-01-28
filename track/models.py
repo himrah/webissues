@@ -36,7 +36,6 @@ class issue(models.Model):
     id=models.AutoField(primary_key=True)
     name=models.CharField(max_length=50)
     created_date=models.DateTimeField(default=datetime.now,blank=True)
-    #created_by=models.ForeignKey(User,on_delete=models.CASCADE)
     created_by=models.CharField(max_length=20)
     status=models.CharField(max_length=10,choices=choices,default=nothing)
     issue_description=models.TextField()

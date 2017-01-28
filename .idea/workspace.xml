@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b0edc8e-4779-4da0-8b5b-7237aab7bafd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/add_issue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/admin_dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/admin_login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/associate_erp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/associate_permission.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/create_project.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/delete_manager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/edit_issues.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/erp_project.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/full_description.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/full_json.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/issue_json.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/login_screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/manager_dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/manager_permission.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/manager_profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/project_list_api.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screen/user_list.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db2.sqlite3" afterPath="$PROJECT_DIR$/db2.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/rest_framework/base.html" afterPath="$PROJECT_DIR$/templates/rest_framework/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dashboard.html" afterPath="$PROJECT_DIR$/templates/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/login.html" afterPath="$PROJECT_DIR$/templates/registration/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/track/models.py" afterPath="$PROJECT_DIR$/track/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webissues/settings.py" afterPath="$PROJECT_DIR$/webissues/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webissues/urls.py" afterPath="$PROJECT_DIR$/webissues/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/track/views.py" afterPath="$PROJECT_DIR$/track/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webissues.iws" />
@@ -17,7 +43,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/webissues$s.coverage" NAME="s Coverage Results" MODIFIED="1482747032882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Sunil" />
+    <SUITE FILE_PATH="coverage/webissues$himrah.coverage" NAME="himrah Coverage Results" MODIFIED="1484067549050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Sunil/django_s/Django-ORM-master" />
+    <SUITE FILE_PATH="coverage/webissues$s__1_.coverage" NAME="s (1) Coverage Results" MODIFIED="1483949312538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Sunil/django_s/Django-ORM-master" />
+    <SUITE FILE_PATH="coverage/webissues$d.coverage" NAME="d Coverage Results" MODIFIED="1483678562369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Sunil" />
+    <SUITE FILE_PATH="coverage/webissues$him.coverage" NAME="him Coverage Results" MODIFIED="1484130765435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Django-ORM-master" />
+    <SUITE FILE_PATH="coverage/webissues$s.coverage" NAME="s Coverage Results" MODIFIED="1483526058810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Sunil" />
     <SUITE FILE_PATH="coverage/webissues$Test__db.coverage" NAME="Test: db Coverage Results" MODIFIED="1476616897062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -32,31 +62,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/track/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="217" column="1" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.5889571">
+              <caret line="304" column="48" selection-start-line="304" selection-start-column="48" selection-end-line="304" selection-end-column="48" />
               <folding>
                 <element signature="e#0#81#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grid.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/track/static/logo/grid.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3333335">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -65,52 +78,50 @@
         <entry file="file://$PROJECT_DIR$/webissues/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="132" column="23" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Sunil/s.py">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/track/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <element signature="e#52#77#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="edit_issue.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/edit_issue.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serlierlizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/track/serlierlizer.py">
+      <file leaf-file-name="form.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/track/form.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-              <folding>
-                <element signature="e#21#47#0" expanded="true" />
-              </folding>
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,8 +130,10 @@
         <entry file="file://$PROJECT_DIR$/webissues/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-              <folding />
+              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+              <folding>
+                <element signature="e#618#659#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,29 +175,34 @@
         <option value="$PROJECT_DIR$/templates/project_option.html" />
         <option value="$PROJECT_DIR$/track/static/style/style.css" />
         <option value="$PROJECT_DIR$/track/url.py" />
-        <option value="$PROJECT_DIR$/templates/rest_framework/base.html" />
         <option value="$PROJECT_DIR$/templates/registration/logins.html" />
         <option value="$PROJECT_DIR$/templates/temp/login.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/registration/base.html" />
         <option value="$PROJECT_DIR$/templates/issue_detail.html" />
-        <option value="$PROJECT_DIR$/templates/edit_issue.html" />
         <option value="$PROJECT_DIR$/templates/delete_confirmation.html" />
         <option value="$PROJECT_DIR$/templates/css.html" />
-        <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/track/form.py" />
         <option value="$PROJECT_DIR$/templates/issue_details.html" />
-        <option value="$PROJECT_DIR$/track/models.py" />
         <option value="$PROJECT_DIR$/templates/new_nav.html" />
         <option value="$PROJECT_DIR$/templates/search_query.html" />
         <option value="$PROJECT_DIR$/templates/registration/logout.html" />
         <option value="$PROJECT_DIR$/track/serlierlizer.py" />
-        <option value="$PROJECT_DIR$/webissues/settings.py" />
-        <option value="$PROJECT_DIR$/templates/dashboard.html" />
-        <option value="$PROJECT_DIR$/webissues/urls.py" />
         <option value="$PROJECT_DIR$/templates/Grade_card.html" />
         <option value="$PROJECT_DIR$/templates/result.html" />
-        <option value="$PROJECT_DIR$/../../Sunil/s.py" />
+        <option value="$PROJECT_DIR$/webissues/settings.py" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/webissues/urls.py" />
+        <option value="$PROJECT_DIR$/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/templates/edit_issue.html" />
+        <option value="E:/Sunil/s.py" />
+        <option value="E:/Sunil/d.py" />
+        <option value="$PROJECT_DIR$/templates/rest_framework/base.html" />
+        <option value="E:/Sunil/django_s/Django-ORM-master/s.py" />
+        <option value="E:/Sunil/django_s/Django-ORM-master/himrah.py" />
+        <option value="E:/Django-ORM-master/db/models.py" />
+        <option value="E:/Django-ORM-master/him.py" />
+        <option value="$PROJECT_DIR$/track/models.py" />
         <option value="$PROJECT_DIR$/track/views.py" />
       </list>
     </option>
@@ -197,9 +215,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="33" />
+    <option name="y" value="42" />
     <option name="width" value="1366" />
-    <option name="height" value="711" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -224,6 +242,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,14 +262,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webissues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webissues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webissues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webissues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webissues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webissues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webissues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webissues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webissues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest_framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -257,6 +335,7 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -267,277 +346,7 @@
       <recent name="D:\project\webissues\templates" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.fuse_hidden0000024400000002</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/.name</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/deployment.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/vcs.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/webissues.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/__pycache__/manage.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/__pycache__/manage.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/db2.sqlite3</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/manage.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/result.csv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/add_issue.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/admin_dashboard.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/admin_login.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/associate_erp.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/associate_permission.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/create_project.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/delete_manager.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/edit_issues.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/erp_project.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/full_description.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/full_json.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/group.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/issue_json.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/login_screen.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/manager_dashboard.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/manager_permission.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/manager_profile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/project_list_api.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/screen/user_list.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/Grade_card.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/admin/base_site.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/base.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/css.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/dashboard.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/delete_confirmation.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/edit_issue.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/footer.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/issue_detail.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/issue_details.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/js.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/nav.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/new_nav.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/orig.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/project_option.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/base.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/login.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/logins.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/logout.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/maxresdefault.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/registration/profile.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/rest_framework/base.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/result.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/search.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/search_query.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/temp/base.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/temp/dashboard.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/temp/login.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/test.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/templates/validation.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/__init__.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/__init__.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/admin.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/admin.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/form.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/form.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/full.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/full.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/models.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/models.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/serlierlizer.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/serlierlizer.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/url.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/views.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/__pycache__/views.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/admin.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/form.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/full.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0001_initial.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0002_remove_issue_comments.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0003_issue_comments.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0004_auto_20161111_0255.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/0005_auto_20161111_0259.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0001_initial.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0001_initial.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0002_remove_issue_comments.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0002_remove_issue_comments.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0003_issue_comments.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0003_issue_comments.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0004_auto_20161111_0255.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0004_auto_20161111_0255.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0005_auto_20161111_0259.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/0005_auto_20161111_0259.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/__init__.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/migrations/__pycache__/__init__.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/models.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/serlierlizer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/angular.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/angular.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/app/app.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/jquery.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/js/jquery.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/logo/grid.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/logo/maxresdefault.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/logo/webissues-logo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap-theme.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap-theme.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap-theme.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap-theme.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/bootstrap.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/static/style/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/tests.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/url.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/track/views.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/__init__.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/__init__.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/settings.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/settings.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/urls.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/urls.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/wsgi.cpython-33.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/__pycache__/wsgi.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/settings.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/urls.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../d/webissues/wsgi.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunManager" selected="Django server.webissues">
-    <configuration default="false" name="Test: db" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webissues" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="db" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
     <configuration default="false" name="s" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -545,13 +354,85 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Sunil" />
+      <option name="WORKING_DIRECTORY" value="E:/Sunil" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="webissues" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Sunil/s.py" />
+      <option name="SCRIPT_NAME" value="E:/Sunil/s.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="s (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python33\python.exe" />
+      <option name="WORKING_DIRECTORY" value="E:/Sunil/django_s/Django-ORM-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webissues" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Sunil/django_s/Django-ORM-master/s.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="d" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Sunil" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webissues" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Sunil/d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="himrah" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Sunil/django_s/Django-ORM-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webissues" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Sunil/django_s/Django-ORM-master/himrah.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="him" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Django-ORM-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webissues" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Django-ORM-master/him.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -774,7 +655,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="webissues.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.4" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -791,15 +672,21 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.webissues" />
-      <item index="1" class="java.lang.String" itemvalue="Django tests.Test: db" />
-      <item index="2" class="java.lang.String" itemvalue="Python.s" />
+      <item index="1" class="java.lang.String" itemvalue="Python.s" />
+      <item index="2" class="java.lang.String" itemvalue="Python.s (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.d" />
+      <item index="4" class="java.lang.String" itemvalue="Python.himrah" />
+      <item index="5" class="java.lang.String" itemvalue="Python.him" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.s" />
-        <item index="1" class="java.lang.String" itemvalue="Django tests.Test: db" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.himrah" />
+        <item index="1" class="java.lang.String" itemvalue="Python.him" />
+        <item index="2" class="java.lang.String" itemvalue="Python.s (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.d" />
+        <item index="4" class="java.lang.String" itemvalue="Python.s" />
       </list>
     </recent_temporary>
   </component>
@@ -814,11 +701,18 @@
       <option name="number" value="Default" />
       <updated>1475845726524</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create README.md">
+      <created>1482753422544</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1482753422544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="33" width="1366" height="711" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="42" width="1366" height="726" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -826,21 +720,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24560118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39900663" sideWeight="0.48680353" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25496688" sideWeight="0.7140762" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42326334" sideWeight="0.71041054" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5058651" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294702" sideWeight="0.4941349" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.50293255" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.49120235" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.49706745" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@webissues" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26332796" sideWeight="0.4882698" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43295637" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -854,26 +749,66 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create README.md" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/track/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="29" />
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webissues/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/edit_issue.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/track/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webissues/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="e#618#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webissues/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="e#618#659#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -934,28 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33238637">
           <caret line="6464" column="10" selection-start-line="6464" selection-start-column="1" selection-end-line="6464" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DjangoModelDependency/#webissues">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DjangoModelDependency</ID>
-          <OriginalElement>#webissues</OriginalElement>
-          <nodes>
-            <node x="" y="">track.models.project</node>
-            <node x="" y="">track.models.issue</node>
-            <node x="" y="">django.contrib.auth.models.User</node>
-            <node x="" y="">django.contrib.auth.models.Permission</node>
-            <node x="" y="">django.contrib.contenttypes.models.ContentType</node>
-            <node x="" y="">django.contrib.auth.models.Group</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="253.0" y="201.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1076,31 +989,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rest_framework/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/track/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/track/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1118,13 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webissues/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4402174">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/issue_details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1132,67 +1017,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/track/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#204#242#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/search_query.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/result.html">
+    <entry file="file://$PROJECT_DIR$/track/static/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9642005">
+          <caret line="128" column="36" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding>
-            <marker date="1482516824654" expanded="true" signature="326:991" placeholder="..." />
-          </folding>
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Grade_card.html">
+    <entry file="uml://DjangoModelDependency/#webissues">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#webissues</OriginalElement>
+          <nodes>
+            <node x="320.25" y="-413.0">django.contrib.auth.models.Group</node>
+            <node x="19.25" y="-413.0">django.contrib.auth.models.Permission</node>
+            <node x="-2.0" y="-331.0">track.models.project</node>
+            <node x="115.25" y="-249.0">track.models.issue</node>
+            <node x="182.0" y="-331.0">django.contrib.auth.models.User</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Group">
+              <point x="60.25" y="-16.0" />
+              <point x="362.75" y="-356.0" />
+              <point x="445.25" y="-356.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="track.models.issue" target="track.models.project">
+              <point x="-38.0" y="-16.0" />
+              <point x="153.25" y="-274.0" />
+              <point x="80.0" y="-274.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="track.models.issue" target="django.contrib.auth.models.User">
+              <point x="38.0" y="-16.0" />
+              <point x="229.25" y="-274.0" />
+              <point x="302.5" y="-274.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Permission">
+              <point x="-60.25" y="-16.0" />
+              <point x="242.25" y="-356.0" />
+              <point x="159.75" y="-356.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="12.0" y="-342.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webissues/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/edit_issue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/track/serlierlizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <element signature="e#21#47#0" expanded="true" />
-          </folding>
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1201,71 +1096,93 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webissues/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="23" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
-          <folding />
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/track/static/style/style.css">
+    <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9642005">
-          <caret line="128" column="36" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/track/serlierlizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rest_framework/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.455129">
+          <caret line="33" column="72" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/track/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="217" column="1" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5889571">
+          <caret line="304" column="48" selection-start-line="304" selection-start-column="48" selection-end-line="304" selection-end-column="48" />
           <folding>
             <element signature="e#0#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webissues/urls.py">
+    <entry file="file://$PROJECT_DIR$/webissues/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Sunil/s.py">
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/track/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="e#52#77#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/templates/edit_issue.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/track/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webissues/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="e#618#659#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
