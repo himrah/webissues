@@ -1,0 +1,77 @@
+{% include 'css.html' %}
+{% include 'js.html' %}
+
+<div>
+
+            <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".inn">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    <a href="/accounts/profile" class="navbar-brand">
+                        {{ user.first_name }} {{ name }}
+                    </a>
+                    </div>
+
+                    <div class="navbar-collapse collapse navbar-right">
+                        <div class="in inn">
+                        <ul class="nav navbar-nav">
+                            <li ><a href="/index">HOME</a></li>
+                             <li><a href="/create">CREATE</a></li>
+                            <li><a href="#faculty-sec">FACULTY</a></li>
+                             <li><a href="#course-sec">COURSES</a></li>
+                             <li><a href="#contact-sec">CONTACT</a></li>
+                        </ul>
+                            </div>
+                    </div>
+
+                    <form class="navbar-search col-sm-5 docs-search" ng-submit="submit()">
+
+                        <span class="glyphicon glyphicon-search search-icon "></span>
+                        <input type="text"
+                                name="q"
+                                class="search-query"
+                                placeholder="search"
+                                autocomplete="off">
+
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="navbar navbar-inverse text-hide" id="menu">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sss">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+
+                    <div class="navbar-collapse collapse move-me navbar-right" id="sss">
+                        <ul class="nav navbar-nav">
+                            <li ><a href="/">HOME</a></li>
+                             <li><a href="/new">CREATE</a></li>
+                            <li><a href="#faculty-sec">FACULTY</a></li>
+                             <li><a href="#course-sec">COURSES</a></li>
+                             <li><a href="#contact-sec">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <form class="navbar-search col-sm-5 docs-search" ng-submit="submit()">
+                        <span class="glyphicon glyphicon-search search-icon "></span>
+                        <input type="text"
+                                name="q"
+                                class="search-query"
+                                placeholder="search"
+                                autocomplete="off">
+                    </form>
+                </div>
+            </div>
+
+</div>
+

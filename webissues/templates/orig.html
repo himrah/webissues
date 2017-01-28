@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<title>{% block title %} {% endblock %}</title>
+
+
+<body>
+<div class="container">
+{% include 'new_nav.html' %}
+        <div>
+                    {% block content %}
+                    {% endblock %}
+        </div>
+</body>
+</html>

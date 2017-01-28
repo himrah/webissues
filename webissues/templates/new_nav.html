@@ -1,0 +1,69 @@
+{% load staticfiles %}
+{% include 'css.html' %}
+{% include 'js.html' %}
+    <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sss">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand"><a href="/"><img src="{% static 'logo/webissues-logo.png'%}" height="25"></a></div>
+            </div>
+
+            <div class="navbar-collapse collapse move-me navbar-right" id="sss">
+                <ul class="nav navbar-nav">
+                    <li ><a href="/index">Home</a></li>
+                    {% if user.groups.get.name == 'Associate' %}
+                        {% else %}
+                     <li><a href="/create">Create</a></li>
+                    {% endif %}
+                    <li><a href="/accounts/profile">{{ user.first_name }}{{ name.first_name }}</a></li>
+                     <li><a href="/accounts/logout">Logout</a></li>
+                </ul>
+            </div>
+            <form class="navbar-search col-sm-5 docs-search" ng-submit="submit()">
+                <span class="glyphicon glyphicon-search search-icon "></span>
+                <input type="text"
+                        name="q"
+                        class="search-query"
+                        placeholder="search"
+                       doc-search-input
+                        autocomplete="off">
+            </form>
+
+        </div>
+    </div>
+    <div class="navbar hide-text" id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sss">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="navbar-collapse collapse move-me navbar-right" id="sss">
+                <ul class="nav navbar-nav">
+                    <li ><a href="/">HOME</a></li>
+                     <li><a href="/new">CREATE</a></li>
+                    <li><a href="#faculty-sec">FACULTY</a></li>
+                     <li><a href="#course-sec">COURSES</a></li>
+                     <li><a href="#contact-sec">CONTACT</a></li>
+                </ul>
+            </div>
+            <form class="navbar-search col-sm-5 docs-search" ng-submit="submit()">
+                <span class="glyphicon glyphicon-search search-icon "></span>
+                <input type="text"
+                        name="q"
+                        class="search-query"
+                        placeholder="search"
+                       doc-search-input
+                        autocomplete="off">
+            </form>
+
+        </div>
+    </div>

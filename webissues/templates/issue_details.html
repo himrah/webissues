@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+        <div class="container">
+
+        <ul style="font-size: 2em;">
+        <li>Name :<input type="text" value="{{ obj.name }}"/></li>
+        <li>Created Date : {{ obj.date }}</li>
+        <li>Created By : {{ obj.created_by }}</li>
+        <li>Status : {{ obj.status }}</li>
+        <li>comments : {{ obj.comment }}</li>
+        <li>Modify_by : {{ obj.modify_by }}</li>
+        <li>Priority : {{ obj.priority }}</li>
+        <li>TAT : {{ obj.tat }}</li>
+        <li>Assigned To : {{ obj.assign }}</li>
+        </ul>
+        </div>
+{% endblock %}

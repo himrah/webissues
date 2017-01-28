@@ -1,0 +1,50 @@
+{% extends 'registration/base.html' %}
+{% load bootstrap3 %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+{% if error %}
+        <p align="center"><b>username or password is invalid</b></p>
+    {% endif %}
+    {% if user.is_authenticated %}
+        You are already login please <a href="/index"> click here</a> for home page
+    {% else %}
+
+
+
+        <div>
+                <h2 class="h2" align="center">Welcome to Login</h2>
+            </div>
+        <div>
+        <form method="post" action="/accounts/auth/" name="loginform">
+        {% csrf_token %}
+
+
+
+                <div class="col-md-4 col-md-offset-4" align="center">
+                    <div>
+
+                        <label for="username">User Name:</label>
+                        <input type="text" ng-model="username" name="username" class="form-control" required />
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="password" ng-model="password" name="password" class="form-control" required />
+                    </div>
+                    <div>
+                        <label for="submit">&nbsp</label>
+                        <input type="submit" value="login" ng-disabled="form.username.length==0" class="btn btn-block btn-primary"/>
+                        <!--<button type="submit" class="btn btn-primary btn-block" ng-click="register()">Login</button>-->
+                        <input type="hidden" name="next" value="{{ next|escape }}"/>
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+
+
+
+                </div>
+
+        </form></div>
+{% endif %}
+{% endblock %}
