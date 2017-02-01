@@ -1,0 +1,6 @@
+Django==1.8.1
+beautifulsoup4==4.3.2
+bs4==0.0.1
+django-bootstrap3==7.1.30
+djangorestframework==3.5.3
+requests==2.7.0
