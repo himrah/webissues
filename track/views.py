@@ -13,20 +13,22 @@ from rest_framework import viewsets
 # Create your views here.
 
 
-
+#@login_required(login_url='/api/login')
 class IssueSet(viewsets.ModelViewSet):
     queryset = issue.objects.all()
     serializer_class = IssueSerializer
 
+#@login_required(login_url='/api/login')
 class ProjectSet(viewsets.ModelViewSet):
     queryset = project.objects.all()
     serializer_class = ProjectSeralizer
 
+#@login_required(login_url='/api/login')
 class UserSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
-@login_required(login_url='/accounts/login')
+#@login_required(login_url='/accounts/login')
 def issue_detail(request,pk):
     query=issue.objects.get(id=pk)
     return render_to_response('issue_details.html',{'issue':query,'user':request.user})

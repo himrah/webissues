@@ -4,7 +4,7 @@ from track.models import *
 from django.contrib.auth.models import User
 from django.utils import encoding
 from django import forms
-from djng.forms import NgFormValidationMixin
+#from djng.forms import NgFormValidationMixin
 
 
 
@@ -42,8 +42,8 @@ class LoginForm(AuthenticationForm):
 
 
 
-class angularform(NgFormValidationMixin,LoginForm):
-    pass
+#class angularform(NgFormValidationMixin,LoginForm):
+#    pass
     """def clean_username(self):
         data=self.cleaned_data['username']
         if not data:

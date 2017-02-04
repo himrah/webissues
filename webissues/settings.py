@@ -91,7 +91,9 @@ TEMPLATES = [
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASS': (
-        'rest_framework.permissions.IsAdminUser',
+        #'rest_framework.permissions.IsAdminUser',
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
     ),
     'DEFAUTL'
     'PAGE_SIZE':10,
@@ -128,4 +130,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
+STATIC_ROOT='/statics/'
 STATIC_URL = '/static/'
