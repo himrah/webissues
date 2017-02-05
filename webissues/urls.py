@@ -21,11 +21,13 @@ from track.form import *
 from rest_framework import routers
 from django.views.generic import TemplateView
 from django.contrib import admin
+from django.conf.urls import handler404
 
 router=routers.DefaultRouter()
 router.register('issue',IssueSet)
 router.register('project',ProjectSet)
 router.register('user',UserSet)
+
 
 urlpatterns = [
     #url('',include('track.url',namespace='track')),

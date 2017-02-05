@@ -8,6 +8,7 @@ from django.views.generic.edit import FormView
 from django.contrib.auth.models import Group,User
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import AuthenticationForm
+from django.template import RequestContext
 from django.http.response import HttpResponseRedirect,HttpResponse
 from rest_framework import viewsets
 # Create your views here.
@@ -335,3 +336,8 @@ def result(request):
         main.append(temp)
     return render_to_response('result.html',{'info':info,'mark':main,'user':request.user})
 
+#def handler404(request):
+#    response = render_to_response('404.html', {},
+#                                  context_instance=RequestContext(request))
+#    response.status_code = 404
+#    return response
