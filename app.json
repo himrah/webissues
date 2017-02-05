@@ -1,0 +1,19 @@
+{
+  "name": "webissues",
+  "description": "",
+  "scripts": {
+    "postdeploy": "setup.py runserver"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
