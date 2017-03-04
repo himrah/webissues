@@ -1,6 +1,6 @@
-from django.shortcuts import render,render_to_response,get_object_or_404,redirect
+from django.shortcuts import render,render_to_response,get_object_or_404
 from track.form import *
-from django.contrib.auth import REDIRECT_FIELD_NAME,get_user_model,login as auth_login, authenticate
+from django.contrib.auth import REDIRECT_FIELD_NAME,login as auth_login
 from django.core.context_processors import csrf
 from django.contrib import auth
 from track.serlierlizer import *
@@ -8,7 +8,6 @@ from django.views.generic.edit import FormView
 from django.contrib.auth.models import Group,User
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import AuthenticationForm
-from django.template import RequestContext
 from django.http.response import HttpResponseRedirect,HttpResponse
 from rest_framework import viewsets
 # Create your views here.
@@ -320,21 +319,64 @@ def result(request):
     r=requests.get(url)
     print(r.status_code)
     soup=BS(r.content,'html.parser')
-    print(soup)
+    #print(soup)
     enrol=soup.find_all('b')[3].text
     name=soup.find_all('b')[4].text
     prog=soup.find_all('b')[5].text
     info=[str(enrol),str(name),str(prog)]
-
     main=[]
+    m=0
+    num=0
     tr=soup.find_all('tr')
     for i in tr:
-        td=i.find_all('td')
         temp=[]
+        td=i.find_all('td')
         for j in td:
             temp.append(j.text)
+        #main.append(temp)
+
+        if(td[5].text=='-'):
+            try:
+                count1=int(td[6].text)*.75
+                temp.append(count1)
+            except ValueError:
+                count1=False
+                temp.append("Theory weight 75%")
+        else:
+            try:
+                count1=int(td[5].text)*.75
+                temp.append(count1)
+            except ValueError:
+                count1=False
+                temp.append("Theory weight 75%")
+        if(td[1].text=='-'):
+            try:
+                count2=int(td[2].text)*.25
+                temp.append(count2)
+            except ValueError:
+                count2=False
+                temp.append("Practical weight 25%")
+        else:
+            try:
+                count2=int(td[1].text)*.25
+                temp.append(int(td[1].text)*.25)
+            except ValueError:
+                count2=False
+                temp.append("Practical weight 25%")
+
+        if(count1 is False):
+            temp.append("Total marks")
+        else:
+            m+=(count1+count2)
+            num+=100
+            temp.append(count1+count2)
+        #print(temp)
         main.append(temp)
-    return render_to_response('result.html',{'info':info,'mark':main,'user':request.user})
+    #main.append()
+    #print(main)
+    per=(m/num)*100
+    print("percentage : ",per)
+    return render_to_response('result.html',{'info':info,'mark':main,'per':round(per,0),'user':request.user})
 
 #def handler404(request):
 #    response = render_to_response('404.html', {},

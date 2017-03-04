@@ -23,11 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'cqtna*youfc^0nfe9kew0()1y2+9aughkl!4)i7f7zwjq*3!n='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 LOGIN_REDIRECT_URL = '/index'
-TEMPLATE_DEBUG = DEBUG
-ALLOWED_HOSTS = ['localhost','127.0.0.1']
+#TEMPLATE_DEBUG = DEBUG
+#ALLOWED_HOSTS = ['localhost','127.0.0.1']
 
 
 # Application definition
@@ -130,5 +130,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-STATIC_ROOT='/statics/'
+#STATIC_ROOT='/statics/'
 STATIC_URL = '/static/'

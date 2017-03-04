@@ -293,7 +293,7 @@ def issue_edit(request,pk):
     return render_to_response(temp,{'obj':query})
 
 import csv
-def export_csv(requests):
+def export_csv(request):
     #query=issue.objects.all()
     #file=open('result.csv','wt',newline='')
     #row=csv.writer(file)
